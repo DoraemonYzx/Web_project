@@ -1,0 +1,27 @@
+# 1. 大小写敏感
+# 2. 使用缩进表示层级关系
+# 3. 缩进时不允许使用Tab，只允许使用空格
+# 4. 缩进的空格数目不重要，只要相同层级的元素左对齐即可
+# 5. # 表示注释，从它开始到行尾都被忽略
+name: Tom
+age: 28
+spouse:
+  name: kiky
+  age: 25
+childer:
+  - name: poppy
+    age: 2
+  - name: ppppp
+    age: 2
+
+---  # ---表示分割yaml文件，---上下数据单独
+name: Tom1
+age: 28
+spouse:
+  name: kiky1
+  age: 25
+childer:
+  - name: poppy1
+    age: 2
+  - name: ppppp1
+    age: 2

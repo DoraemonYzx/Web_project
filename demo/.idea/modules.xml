@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo.iml" filepath="$PROJECT_DIR$/.idea/demo.iml" />
+      <module fileurl="file://D:/Android_project/常笑生活微信小程序/.idea/常笑生活微信小程序.iml" filepath="D:/Android_project/常笑生活微信小程序/.idea/常笑生活微信小程序.iml" />
+    </modules>
+  </component>
+</project>
