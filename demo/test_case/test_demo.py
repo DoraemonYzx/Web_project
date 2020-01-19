@@ -16,7 +16,7 @@ testdates1 = [
 testdates2 = [
                 {"username": "YG3346", "password": "654321", "expect": "余振新", "result": True},
                 {"username": "YG0000", "password": "000000", "expect": "余振新", "result": False},
-                {"username": "YG3346", "password": "654321", "expect": "余振新", "result": True},
+                {"username": "YG3346", "password": "654321", "expect": "余振新", "result": False},
              ]
 # 读取excel
 # fliepath = r"D:\Web_project\demo\data\datas.xlsx"
@@ -42,9 +42,7 @@ test_02: 输入账号密码后点击登录，获取登录名，判断登录名�
 
 @ddt.ddt
 class TestDemo(unittest.TestCase):
-    """
-    使用数据驱动测试登录功能
-    """
+    """使用数据驱动测试登录功能"""
 
     @classmethod
     def setUpClass(cls):
