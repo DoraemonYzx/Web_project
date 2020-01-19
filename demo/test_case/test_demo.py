@@ -73,11 +73,13 @@ class TestDemo(unittest.TestCase):
 
     @ddt.data(*testdates1)
     def test_01(self, data):
+        """测试1"""
         print("测试数据: %s " % data)
         self.login_case1(data["username"], data["password"], data["expect"])
 
     @ddt.data(*testdates2)
     def test_02(self, data):
+        """测试2"""
         print("测试数据: %s " % data)
         self.login_case2(data["username"], data["password"], data["expect"], data["result"])
 
