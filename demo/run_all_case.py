@@ -15,6 +15,7 @@ discover = unittest.defaultTestLoader.discover(start_dir=test_dir, pattern="test
 
 if __name__ == '__main__':
     report_dir = './test_report'
+    # 时间戳会导致jenkins无法报告展示，去掉
     # now = time.strftime("%Y-%m-%d %H_%M_%S")
     # report_name = report_dir+'/'+now+'result.html'
     report_name = report_dir+'/'+'result.html'
