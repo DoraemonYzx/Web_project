@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
 @author:余振新
@@ -18,6 +18,6 @@ if __name__ == '__main__':
     report_name = report_dir+'/'+now+'result.html'
 
     with open(report_name, 'wb') as f:
-        runner = HTMLTestRunner(stream=f, title="Demo测试报告", description="")
+        runner = HTMLTestRunner(stream=f, title="Demo测试报告", description="！！！！")
         runner.run(discover)
     f.close()
