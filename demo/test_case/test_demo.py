@@ -42,6 +42,9 @@ test_02: 输入账号密码后点击登录，获取登录名，判断登录名�
 
 @ddt.ddt
 class TestDemo(unittest.TestCase):
+    """
+    使用数据驱动测试登录功能
+    """
 
     @classmethod
     def setUpClass(cls):
